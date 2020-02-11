@@ -16,7 +16,7 @@
             "type": "composer",
             "url": "https://wpackagist.org"
         },
-		"arlo-framework-laravel-mix-seed-theme": {
+		"theme": {
             "type": "package",
             "package" : {
                 "name":"asha23/arlo-framework-laravel-mix-seed-theme",
