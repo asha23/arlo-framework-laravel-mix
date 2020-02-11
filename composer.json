@@ -2,7 +2,7 @@
     "name": "asha23/arlo-framework-laravel-mix",
     "type": "project",
     "license": "MIT",
-	"version":"1.0.4",
+	"version":"1.0.5",
     "description": "A Composer Framework to help you get WordPress up and running in around a minute",
     "authors": [{
         "name": "Ash Whiting",
