@@ -1,0 +1,11 @@
+/web/wp/wp-content
+node_modules
+bower
+sassdoc
+web/content
+web/content/upgrade
+web/content/uploads
+web/wp
+.DS_Store
+.sass-cache
+.env
