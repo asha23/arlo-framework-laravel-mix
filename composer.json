@@ -33,10 +33,10 @@
             "package" : {
                 "name":"asha23/arlo-core-functionality",
                 "type":"wordpress-plugin",
-                "version":"1.1.6",
+                "version":"1.1.7",
                 "dist": {
                     "type":"zip",
-                    "url":"https://github.com/asha23/arlo-core-functionality/archive/1.1.6.zip"
+                    "url":"https://github.com/asha23/arlo-core-functionality/archive/1.1.7.zip"
                 }
             }
 		},
