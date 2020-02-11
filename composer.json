@@ -17,12 +17,28 @@
             "url": "https://wpackagist.org"
         },
 		"arlo-framework-laravel-mix-seed-theme": {
-			"type": "git",
-			"url": "https://github.com/asha23/arlo-framework-laravel-mix-seed-theme"
+            "type": "package",
+            "package" : {
+                "name":"asha23/arlo-framework-laravel-mix-seed-theme",
+                "type":"wordpress-theme",
+                "version":"master",
+                "dist": {
+                    "type":"zip",
+                    "url":"https://github.com/asha23/arlo-framework-laravel-mix-seed-theme/archive/master.zip"
+                }
+            }
 		},
 		"core-functionality": {
-			"type": "git",
-			"url": "https://github.com/asha23/core-functionality"
+            "type": "package",
+            "package" : {
+                "name":"asha23/core-functionality",
+                "type":"wordpress-plugin",
+                "version":"master",
+                "dist": {
+                    "type":"zip",
+                    "url":"https://github.com/asha23/core-functionality/archive/master.zip"
+                }
+            }
 		},
 	    "wp-sync-db": {
 			"type": "package",
