@@ -2,7 +2,7 @@
     "name": "asha23/arlo-framework-laravel-mix",
     "type": "project",
     "license": "MIT",
-	"version":"1.0.8",
+	"version":"1.0.9",
     "description": "A Composer Framework to help you get WordPress up and running in around a minute",
     "authors": [{
         "name": "Ash Whiting",
@@ -33,10 +33,10 @@
             "package" : {
                 "name":"asha23/arlo-core-functionality",
                 "type":"wordpress-plugin",
-                "version":"1.1.9",
+                "version":"1.2.0",
                 "dist": {
                     "type":"zip",
-                    "url":"https://github.com/asha23/arlo-core-functionality/archive/1.1.9.zip"
+                    "url":"https://github.com/asha23/arlo-core-functionality/archive/1.2.0.zip"
                 }
             }
 		},
@@ -59,7 +59,7 @@
         "johnpbloch/wordpress": "*",
 	    "vlucas/phpdotenv": "^2.0.1",
 		"oscarotero/env": "^1.0",
-		"asha23/core-functionality":"*",
+		"asha23/arlo-core-functionality":"*",
         "wpackagist-plugin/wordpress-seo": "*",
 		"wpackagist-plugin/disable-gutenberg":"*",
         "wp-sync-db/wp-sync-db": "*",
