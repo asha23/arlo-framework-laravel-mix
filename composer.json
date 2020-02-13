@@ -3,7 +3,7 @@
     "type": "project",
     "license": "MIT",
 	"version":"1.1.0",
-    "description": "A Composer Framework to help you get WordPress up and running in around a minute",
+    "description": "A modern WordPress stack that treats WordPress as a Composer dependency.",
     "authors": [{
         "name": "Ash Whiting",
         "email": "ash_whiting@hotmail.com"
@@ -73,6 +73,11 @@
         "wordpress-install-dir": "web/wp",
         "content-install-dir": "web/content"
     },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    }
     "minimum-stability": "dev",
     "prefer-stable": false
 }
