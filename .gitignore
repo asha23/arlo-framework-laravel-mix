@@ -1,5 +1,6 @@
 /web/wp/wp-content
 node_modules
+vendor
 bower
 sassdoc
 web/content/upgrade
