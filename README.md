@@ -1,8 +1,5 @@
 # Arlo Wordpress Framework
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]
-___
-
 ## Overview
 
 This framework is not an off-the-shelf theme. It's a boilerplate to help developers get up and running with WordPress quickly and easily. It's not designed to be used by beginners and some knowledge of php is assumed.
