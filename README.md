@@ -1,6 +1,6 @@
 # Arlo Wordpress Framework
 
-```composer create-project asha23/arlo-framework-laravel-mix```
+###```composer create-project asha23/arlo-framework-laravel-mix```
 
 ### Notes
 
