@@ -1,14 +1,40 @@
 # Arlo Wordpress Framework
 
+___
+
+## Overview
+
+This framework is not an off-the-shelf theme. It's a boilerplate to help developers get up and running with WordPress quickly and easily. It's not designed to be used by beginners and some knowledge of php is assumed.
+
+## Features
+
+1. WordPress is installed using Composer as a dependency. This means you can update WordPress by running ```composer update``` in the project root.
+
+1. Similar to Laravel, the core files are out of the root. Database information is kept in a .env file.
+
+3. WordPress Packagist - Keep your plugins up to date by running ```composer update```
+
+4. Uses Laravel Mix in the base theme included. This is a simple way to manage all your build dependencies.
+
+___
+
+## Install
+
+You should have Composer installed globally on your machine. Simply run:
+
 ### ```composer create-project asha23/arlo-framework-laravel-mix```
 
-### Notes
+___
+
+## Notes
 
 This is a very barebones setup. It does include a base theme, but doesn't rely on it.
 
 It's recommended that you use Laravel Homestead to deploy this locally. Please note that the root folder is ```/web```, so you will need to configure the server correctly to point to this folder.
 
-### Example NGINX config
+___
+
+## Example NGINX config
 
 ```
 server {
@@ -66,8 +92,9 @@ server {
     ssl_certificate_key /etc/nginx/ssl/***your-website.key***;
 }
 ```
+___
 
-### Example ```_htaccess``` config
+## Example ```_htaccess``` config
 
 Use this in the root if you are on an Apache setup.
 
@@ -77,4 +104,8 @@ RewriteCond %{REQUEST_URI} !^/web
 RewriteRule ^(.*)$ /web/$1 [NC,L]
 ```
 
+___
 
+[Created by Ash Whiting](http://ashwhiting.com)
+
+Thanks to: [Wordplate](https://github.com/wordplate) for their excellent ACF Builder module.
