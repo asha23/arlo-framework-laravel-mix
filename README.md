@@ -1,10 +1,9 @@
 # Arlo Wordpress Framework
 
-1. Change ```.env-example``` to ```.env```
-2. Add your database details and paths
-3. run ```composer install```
+1. Add your database details and paths in the .env file
+2. run ```composer install```
 
-Alternatively just use composer
+Alternatively just use composer to install in your folder of choice
 
 ```composer create-project asha23/arlo-framework-laravel-mix```
 
