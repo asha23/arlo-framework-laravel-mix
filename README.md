@@ -1,6 +1,6 @@
 # Arlo WordPress Framework
 
-## I
+## Install
 
 You should have Composer installed globally on your machine. Simply run:
 
