@@ -19,12 +19,21 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <style>
+      .page-header {
+        background:white; border-bottom:1px solid ccc;
+      }
+
+      .btn {
+        color:#999; border:1px solid #999; border-radius:3px; 
+      }
+    </style>
   </head>
 
   <body>
-    <header class="page-header" role="banner" style="background:white; border-bottom:1px solid ccc;">
-        <img src="https://github.com/asha23/arlo-framework-laravel-mix/blob/master/_assets/images/logo.png?raw=true"/>
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <header class="page-header" role="banner">
+      <img src="https://github.com/asha23/arlo-framework-laravel-mix/blob/master/_assets/images/logo.png?raw=true"/>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
