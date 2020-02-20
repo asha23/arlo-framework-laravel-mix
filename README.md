@@ -1,6 +1,6 @@
-# Arlo Wordpress Framework
+# Arlo WordPress Framework
 
-## Install
+## I
 
 You should have Composer installed globally on your machine. Simply run:
 
@@ -36,7 +36,7 @@ It's recommended that you use Laravel Homestead to deploy this locally. Please n
     server {
         listen 80;
         listen 443 ssl http2;
-        server_name .plugin-dev.test;
+        server_name .***your-website***;
         root "/home/vagrant/code/***your-website***/web";
 
         index index.php index.html index.htm;
