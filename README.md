@@ -26,9 +26,7 @@ This framework is not an off-the-shelf theme. It's a boilerplate to help experie
 
 ## Notes
 
-This is a very barebones setup. It does include a base theme, but doesn't rely on it.
-
-It's recommended that you use Laravel Homestead to deploy this locally. Please note that the root folder is ```/web```, so you will need to configure the server correctly to point to this folder.
+It's highly recommended that you use Laravel Homestead to deploy this locally. Please note that the root folder is ```/web```, so you will need to configure the server correctly to point to this folder.
 
 ## Example NGINX config
 
