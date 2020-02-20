@@ -8,7 +8,7 @@ You should have Composer installed globally on your machine. Simply run:
 
 ## Overview
 
-This framework is not an off-the-shelf theme. It's a boilerplate to help developers get up and running with WordPress quickly and easily. It's not designed to be used by beginners and some knowledge of php is assumed.
+This framework is not an off-the-shelf theme. It's a boilerplate to help experienced WordPress developers get up and running quickly and easily. It's not designed to be used by beginners and good knowledge of php is assumed.
 
 ## Features
 
@@ -19,6 +19,10 @@ This framework is not an off-the-shelf theme. It's a boilerplate to help develop
 3. WordPress Packagist - Keep your plugins up to date by running ```composer update```
 
 4. Uses Laravel Mix in the base theme included. This is a simple way to manage all your build dependencies.
+
+5. There is a core functionality plugin included which strips out a lot of useless WordPress bloat. This is optional.
+
+6. The base theme is extremely bare bones. It's more of an approach template than an actual theme. Useful if you do a lot of theme creation from scratch. Otherwise it should probably be removed.
 
 ## Notes
 
