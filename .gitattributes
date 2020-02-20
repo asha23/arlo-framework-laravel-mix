@@ -1,0 +1,5 @@
+.gitattributes export-ignore
+.gitignore export-ignore
+_config.yml export-ignore
+/_assets export-ignore
+/_layouts export-ignore
